@@ -1,0 +1,97 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\variants\\adafruit_qtpy_esp32c3"
+  },
+  {
+    "Sourcefile": "D:\\ThesisProjekt\\Arduino\\ESPNOW\\arduino-hydra\\build\\sketch\\ESPNOW_MASTER.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "D:\\ThesisProjekt\\Arduino\\ESPNOW\\arduino-hydra\\build\\sketch\\ESPNOW_MASTER.ino.cpp",
+    "Include": "Network.h",
+    "Includepath": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\Network\\src"
+  },
+  {
+    "Sourcefile": "D:\\ThesisProjekt\\Arduino\\ESPNOW\\arduino-hydra\\build\\sketch\\ESPNOW_MASTER.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src\\AP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src\\STA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\Network\\src\\NetworkClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\Network\\src\\NetworkEvents.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\Network\\src\\NetworkInterface.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\Network\\src\\NetworkManager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\Network\\src\\NetworkServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\vicjo\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\3.0.2\\libraries\\Network\\src\\NetworkUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

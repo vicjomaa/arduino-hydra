@@ -1,0 +1,7 @@
+#line 1 "D:\\ThesisProjekt\\Arduino\\ESPNOW\\arduino-hydra\\ESPNOW_MASTER\\.vscode\\settings.json"
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "cstdint": "cpp"
+    }
+}

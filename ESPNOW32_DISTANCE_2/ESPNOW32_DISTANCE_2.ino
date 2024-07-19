@@ -76,7 +76,7 @@ void setup() {
   }
 
   // Initialize the sensor data structure with an ID
-  mySensorData.id = 4;  // Set the appropriate sensor ID
+  mySensorData.id = 2;  // Set the appropriate sensor ID
 
   // Set the analog read resolution to 12 bits (0-4095)
   analogReadResolution(12);
@@ -108,17 +108,13 @@ void loop() {
 
     // Read analog value from the specified pin
     int analogValue = analogRead(analogPin);
-    Serial.print("analogData: ");
-    Serial.println(analogValue);
 
     // Check for significant changes in analog value or heartbeat interval
     if (abs(analogValue - prevAnalogValue) > analogThreshold || currentTime - previousTimeHB >= heartbeatInterval) {
       
       previousTimeHB = currentTime;
-
     
       prevAnalogValue = analogValue;
-
      
       sendDataFormatted();
     }
@@ -127,6 +123,20 @@ void loop() {
 
 // Function to format and send sensor data via ESP-NOW
 void sendDataFormatted() {
-  snprintf(mySensorData.data, sizeof(mySensorData.data), "piezo: %d", prevAnalogValue);
+  snprintf(mySensorData.data, sizeof(mySensorData.data), "distance: %d", analogToDistance(prevAnalogValue));
   esp_now_send(broadcastAddress, (uint8_t *)&mySensorData, sizeof(sensor_data));
 }
+
+// Function to convert analog reading to distance (in cm) for Sharp 2Y0A02
+int analogToDistance(int analogValue) {
+  // Convert the analog value to voltage (assuming 3.3V reference voltage)
+  float voltage = analogValue * (3.3 / 4095.0);
+  
+  // Use the characteristic curve for the Sharp 2Y0A02 sensor to convert voltage to distance
+  // This formula is derived from the sensor's datasheet
+  int distance = 105.027 * pow(voltage, -1.81);
+
+  return distance;
+}
+
+

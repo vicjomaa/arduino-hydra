@@ -12,7 +12,7 @@ uint8_t broadcastAddress[] = { 0x34, 0xB4, 0x72, 0xEA, 0x22, 0x94 };
 typedef struct sensor_data {
   char data[128];  // Data from the sensor
   int id;
-} sensor_data;
+} sensor_data;p
 
 sensor_data mySensorData;
 

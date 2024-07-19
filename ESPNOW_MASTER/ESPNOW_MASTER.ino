@@ -9,16 +9,8 @@ typedef struct sensor_data {
 
 sensor_data mySensorData;
 
-// MAC addresses of the receivers -> TO ADD MORE SENSORS JUST INSERT A NEW MAC ADDRESS
-uint8_t receiverAddress[][6] = {
-  {0xA0, 0x20, 0xA6, 0x13, 0x11, 0x60},
-  {0xE0, 0x98, 0x06, 0x0D, 0xC8, 0xF1},
-  {0x8C, 0x4B, 0x14, 0x0B, 0x12, 0x0C},
-  {0x8C, 0x4B, 0x14, 0x0F, 0x3F, 0xD4}
-};
-
 // Calculate the number of sensors
-const int MAX_SENSORS = sizeof(receiverAddress) / sizeof(receiverAddress[0]);
+const int MAX_SENSORS = 6;
 
 unsigned long lastDataReceived[MAX_SENSORS] = {0};
 bool isSensorAlive[MAX_SENSORS] = {false};
